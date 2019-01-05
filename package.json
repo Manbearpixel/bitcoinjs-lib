@@ -1,17 +1,21 @@
 {
-  "name": "bitcoinjs-lib",
-  "version": "4.0.2",
-  "description": "Client-side Bitcoin JavaScript library",
+  "name": "@odin/odinjs-lib",
+  "version": "5.0.0",
+  "description": "Client-side ODIN Blockchain JavaScript library",
   "main": "./src/index.js",
   "engines": {
     "node": ">=8.0.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
-    "bitcoinjs",
+    "odinjs",
+    "odin",
+    "odinblockchain",
     "bitcoin",
     "browserify",
-    "javascript",
-    "bitcoinjs"
+    "javascript"
   ],
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -19,12 +23,12 @@
     "coverage": "nyc --check-coverage --branches 90 --functions 90 mocha",
     "integration": "mocha --timeout 50000 test/integration/",
     "standard": "standard",
-    "test": "npm run standard && npm run coverage",
+    "test": "echo \"Error: Tests are unavailable for odinjs-lib\" && exit 1",
     "unit": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "https://github.com/odinblockchain/odinjs-lib"
   },
   "files": [
     "src"

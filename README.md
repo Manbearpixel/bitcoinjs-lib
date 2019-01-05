@@ -1,5 +1,7 @@
 # ODINJS (odinjs-lib)
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![Build Status](https://travis-ci.org/obsidianplatform/obsidianjs-lib.png?branch=master)](https://travis-ci.org/obsidianplatform/obsidianjs-lib)
+[![NPM](https://img.shields.io/npm/v/@odin/odinjs-lib.svg)](https://www.npmjs.org/package/@odin/odinjs-lib)
+
 
 A javascript ODIN library for node.js and browsers.
 
@@ -66,11 +68,7 @@ npm run-script coverage
 - [minimaldata](https://github.com/bitcoinjs/minimaldata) - A module to check bitcoin policy: SCRIPT_VERIFY_MINIMALDATA
 
 
-## Alternatives
-- [BCoin](https://github.com/indutny/bcoin)
-- [Bitcore](https://github.com/bitpay/bitcore)
-- [BitcoinJS-lib)(https://github.com/bitcoinjs/bitcoinjs-lib)
-- [Cryptocoin](https://github.com/cryptocoinjs/cryptocoin)
-
+## Special Thanks
+Special thanks goes towards the [bitcoinjs](https://github.com/bitcoinjs) community and their amazing effort to build useful tools that can work alongside the Bitcoin protocol.
 
 ## LICENSE [MIT](LICENSE)

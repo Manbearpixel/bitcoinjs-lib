@@ -1,3 +1,6 @@
+# 5.0.0
+Major change. Official fork from the original [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) repository. From this release onwards, all updates and modifications to this code-source will be related to the [ODIN Blockchain](https://odinblockchain.org) organization.
+
 # 4.0.2
 __fixed__
 - Fixed `TransactionBuilder` not throwing when payment type validation should fail (#1195)
